@@ -3,7 +3,7 @@
 def square_matrix_simple(matrix=[]):
     new_matrix = []
     for i in matrix:
-        x =[]
+        x = []
         for n in i:
             sq_n = n*n
             x.append(sq_n)
